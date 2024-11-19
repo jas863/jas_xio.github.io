@@ -1,0 +1,106 @@
+body {
+    background-color: rgb(78, 212, 168);
+}
+.forma {
+    display: flex; /* permite qeu el elemento sea flexible*/
+    align-items: center; /* Alinea verticalmente el contenido */
+}
+#forma1 {
+    margin: 10 auto; /* Elimina el margen (espacio) del párrafo */
+}
+#forma2{
+    width: 300px;
+    margin-right: 40px; /* Agrega un espacio a la derecha de la imagen */
+}
+p {
+    text-align: center; /* alinear el texto enel centro */
+    font-family: Arial, Helvetica, sans-serif; /* font-family: te permite especificar el tipo de fuete que quieres utilizar */
+   
+}
+
+ul {
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2 {
+   
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+h1 {
+    background: rgb(62, 133, 109); 
+    text-align: center;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.contener {
+    display: flex;
+   
+}
+.img1 {
+    width: 500px; /* Nos permite definir el ancho  */
+    height: 400px;  /* Nos permite definir el altura */
+     display: block;
+    margin: auto; 
+   
+}
+.img2 {
+    width: 500px;
+  height: 400px;
+  display: block;
+  margin: auto;
+  
+}
+#helado1 {
+    display: block;
+    margin: auto;
+    width: 500px; 
+   
+}
+#helado2 {
+    display: block; /*define el comportamiento de un elemento*/
+    margin: auto;
+    width: 300px; 
+    
+}
+.contenedor1 {
+    display: flex;
+}
+.img3 {
+    display: block;
+    margin: 20px auto; /* Agrega un margen de 20px en todos los lados */
+    width: 400px;
+    height: 300px;
+   
+} 
+.contenedor2 {
+    display: flex;
+}
+.img4 {
+    display: block;
+    margin: 20px auto; /* Agrega un margen de 20px en todos los lados */
+    width: 400px;
+   
+}
+.contenedor3 {
+    display: flex;
+}
+.img5 {
+    display: block;
+    margin: 20px auto; /* Agrega un margen de 20px en todos los lados */
+    width: 400px;
+    
+}
+.contenedor4 {
+    display: flex;
+}
+.img6 {
+    display: block;
+    margin: 20px auto; /* Agrega un margen de 20px en todos los lados */
+    width: 400px;
+    height: 300px;
+   
+}
+#helado-casero {
+    display: block;
+    margin: auto; /* se utiliza para centrar horizontalmente un elemento dentro de su contenedor*/
+    width: 400px; 
+}
